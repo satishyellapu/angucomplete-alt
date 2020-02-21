@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Leftover Feast"    
+             x:Class="LeftOverFeast.Views.StorePage">
+    <ContentPage.Content>
+
+        <StackLayout Margin="5,10">
+            <!--<Label Text="Leftover Feast Details" HorizontalTextAlignment="Center" Margin="0,10" TextColor="DarkBlue" FontSize="Large" FontFamily="Verdana"></Label>-->
+            <ContentView>
+                <ScrollView>
+                    <StackLayout>
+                        <Image x:Name="Foodimg" Aspect="AspectFill" Margin="10"></Image>
+                        <Label x:Name="Foodname" FontSize="Large" TextColor="Red" HorizontalTextAlignment="Center" FontFamily="Verdana" ></Label>
+                        <Label x:Name="BestBeforedays" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start" Margin="10,5" FontFamily="Verdana"></Label>
+                        <Label x:Name="DiscardAfterdays" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start" Margin="10,5" FontFamily="Verdana"></Label>
+                        <Label x:Name="TodayDate" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start" Margin="10,5" FontFamily="Verdana"></Label>
+                        <Label FontSize="Medium" Text="Qty :" TextColor="Black" HorizontalTextAlignment="Start" Margin="10,5" FontFamily="Verdana"></Label>
+                        <Picker x:Name="qty" Title="Select Qty" TitleColor="Red" HorizontalOptions="FillAndExpand" Margin="10,5" FontFamily="Verdana">
+                            <Picker.Items>
+                                <x:String>1</x:String>
+                                <x:String>2</x:String>
+                                <x:String>3</x:String>
+                                <x:String>4</x:String>
+                                <x:String>5</x:String>
+                                <x:String>6</x:String>
+                                <x:String>7</x:String>
+                                <x:String>8</x:String>
+                                <x:String>9</x:String>
+                                <x:String>10</x:String>
+                            </Picker.Items>
+                        </Picker>
+                        <Label FontSize="Medium" Text="Units :" TextColor="Black" HorizontalTextAlignment="Start" Margin="10,5" FontFamily="Verdana"></Label>
+                        <Picker x:Name="units" Title="Select Units" TitleColor="Red" HorizontalOptions="FillAndExpand" Margin="10,5">
+                            <Picker.Items>
+                                <x:String>Each/Lb</x:String>
+                                <x:String>Pounds</x:String>
+                                <!--<x:String>Grams</x:String>
+                                <x:String>Kilograms</x:String>
+                                <x:String>Millilitres</x:String>
+                                <x:String>Litres</x:String>-->
+                            </Picker.Items>
+                        </Picker>
+                        <Button x:Name="btnSave" Clicked="btnSave_Clicked" CornerRadius="20"  Text="Save" TextColor="White" BackgroundColor="Orange" FontFamily="Verdana" FontSize="Medium" HorizontalOptions="FillAndExpand" Margin="10,10"></Button>
+                        <Button x:Name="btnBack"  Clicked="btnBack_Clicked" CornerRadius="20"  Text="Back" TextColor="White" BackgroundColor="Black"  FontFamily="Verdana" FontSize="Medium" HorizontalOptions="FillAndExpand" Margin="10,10"></Button>
+                    </StackLayout>
+                </ScrollView>
+            </ContentView>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

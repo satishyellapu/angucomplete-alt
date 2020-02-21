@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+               xmlns:local="clr-namespace:LeftOverFeast.Views"
+             mc:Ignorable="d"
+             Title="LeftoverFeast"
+             x:Class="LeftOverFeast.TilesMainPage">
+    <ContentPage.Resources>
+        <StyleSheetExtension Source="../Assets/styles.css">            
+        </StyleSheetExtension>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+        <Grid ColumnSpacing="8" HorizontalOptions="FillAndExpand">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="33.33*" />
+                <ColumnDefinition Width="33.33*" />
+            </Grid.ColumnDefinitions>
+               
+
+        </Grid>
+        
+        <ScrollView>       
+            <StackLayout Margin="10">
+                <!--<Label Text="LeftoverFeast" TextColor="OrangeRed" FontSize="Large" HorizontalOptions="CenterAndExpand"  Margin="10" FontFamily="Verdana"></Label>-->
+                <RelativeLayout BackgroundColor="#E2E2E2" HeightRequest="155">
+                    <ImageButton x:Name="btnMeat" Source="Chicken.jfif" Aspect="Fill" 
+                                 HeightRequest="155" Clicked="btnMeat_Clicked" ></ImageButton>
+                    <StackLayout BackgroundColor="#000"  TranslationY="120"
+                                 Opacity=".8" Padding="40,5,40,5">
+                        <Label Text="Meats" TextColor="White" FontSize="Medium"/>
+                    </StackLayout>                   
+                </RelativeLayout>
+
+                <RelativeLayout BackgroundColor="#E2E2E2" HeightRequest="155">
+                    <ImageButton x:Name="btnSeafood" Source="Seafood.jfif" 
+                                 Aspect="Fill" HeightRequest="154" Clicked="btnSeafood_Clicked"></ImageButton>
+                    <StackLayout BackgroundColor="#000" TranslationY="120"
+                                 Opacity=".8" Padding="40,5,40,5">
+                        <Label Text="Seafood" TextColor="White" FontSize="Medium"/>
+                    </StackLayout>
+                </RelativeLayout>
+                <RelativeLayout BackgroundColor="#fff" HeightRequest="155">
+                    <ImageButton x:Name="btnPizza" Source="Pizza.jfif" 
+                                 Aspect="Fill" HeightRequest="155" Clicked="btnPizza_Clicked"></ImageButton>
+                    <StackLayout BackgroundColor="#000" TranslationY="120"
+                                 Opacity=".8" Padding="40,5,40,5">
+                        <Label Text="Pizza/Pasta" TextColor="White" FontSize="Medium"/>
+                    </StackLayout>
+                </RelativeLayout>
+                <RelativeLayout BackgroundColor="#fff" HeightRequest="155" Margin="0,0,0,20">
+                    <ImageButton x:Name="btnTakePhoto" Source="Takeaphoto.jfif" Padding="70,0"
+                                 Aspect="AspectFill" HorizontalOptions="Center" Clicked="btnTakePhoto_Clicked"
+                                HeightRequest="155" BackgroundColor="#fff"></ImageButton>
+                    <StackLayout BackgroundColor="#000" TranslationY="120"
+                                 Opacity=".8" Padding="40,5,40,5">
+                        <Label Text="Take A Photo" TextColor="White" FontSize="Medium"/>
+                    </StackLayout>
+                </RelativeLayout>
+
+                    <Button x:Name="btnHome" Text="Home" TextColor="White" BackgroundColor="DarkOrange"    Grid.Column="0"
+                    FontFamily="Verdana" FontSize="Small"  HorizontalOptions="CenterAndExpand" 
+                    Margin="10,15" WidthRequest="200" CornerRadius="20"  HeightRequest="50" Clicked="btnHome_Clicked"></Button>
+                </StackLayout>
+               
+            </ScrollView>
+
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

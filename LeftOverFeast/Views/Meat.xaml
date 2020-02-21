@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"           
+             mc:Ignorable="d"
+              Title="Meats"
+             x:Class="LeftOverFeast.Views.Meat">
+    <!--<ContentPage.Resources>
+        <StyleSheetExtension Source="../Assets/styles.css"></StyleSheetExtension>
+    </ContentPage.Resources>-->
+    <ContentPage.Content>
+        <StackLayout Margin="0" Orientation="Vertical">
+            <Grid ColumnSpacing="8" HorizontalOptions="FillAndExpand">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="33.33*" />
+                    <ColumnDefinition Width="33.33*" />
+                </Grid.ColumnDefinitions>
+                <Button x:Name="btnHome" Text="Home" TextColor="White" BackgroundColor="DarkOrange"    Grid.Column="0"
+                    FontFamily="Verdana" FontSize="Small"  HorizontalOptions="Start" 
+                    Margin="5,10" CornerRadius="30" HeightRequest="80" Clicked="btnHome_Clicked"></Button>
+
+                <Button x:Name="btnManage" Text="Manage List" TextColor="DarkGreen"    Grid.Column="1"
+                    FontFamily="Verdana" FontSize="Small"  HorizontalOptions="End" 
+                    Margin="5,10" CornerRadius="30" HeightRequest="80" Clicked="btnManage_Clicked" ></Button>
+
+            </Grid>
+
+            <CollectionView x:Name="lstMeat"  SelectionMode="Single">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="2"></GridItemsLayout>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="3,0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="3*"/>                               
+                            </Grid.RowDefinitions>                           
+                            <Frame Padding="0" IsClippedToBounds="True" CornerRadius="20"  WidthRequest="200" HorizontalOptions="FillAndExpand" Grid.Row="0">
+                            <ImageButton x:Name="btnMeat" Source="{Binding ItemImage}" CommandParameter="{Binding .}" Clicked="btnMeat_Clicked">
+                                </ImageButton>
+                            </Frame>
+
+                            <StackLayout Grid.Row="1" Margin="0,1">
+                                <Label WidthRequest="200"  HeightRequest="40" Text="{Binding Name}" FontSize="15"  FontAttributes="Italic"
+                                        HorizontalOptions="Center" Grid.Row="1" Grid.Column="1" ></Label>
+                            </StackLayout>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
