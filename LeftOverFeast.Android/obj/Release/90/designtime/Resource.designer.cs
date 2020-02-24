@@ -5736,11 +5736,20 @@ namespace LeftOverFeast.Droid
 			// aapt resource value: 0x7F070006
 			public const int Cakes = 2131165190;
 			
+			// aapt resource value: 0x7F070074
+			public const int camera = 2131165300;
+			
+			// aapt resource value: 0x7F070075
+			public const int camera2 = 2131165301;
+			
 			// aapt resource value: 0x7F070007
 			public const int Cheeseburger = 2131165191;
 			
 			// aapt resource value: 0x7F070008
 			public const int Chicken = 2131165192;
+			
+			// aapt resource value: 0x7F070076
+			public const int chicken1 = 2131165302;
 			
 			// aapt resource value: 0x7F070009
 			public const int ChickenFried = 2131165193;
@@ -5751,29 +5760,29 @@ namespace LeftOverFeast.Droid
 			// aapt resource value: 0x7F07000B
 			public const int Cobbsalad = 2131165195;
 			
-			// aapt resource value: 0x7F070074
-			public const int crab = 2131165300;
+			// aapt resource value: 0x7F070077
+			public const int crab = 2131165303;
 			
 			// aapt resource value: 0x7F07000C
 			public const int Crabcakes = 2131165196;
 			
-			// aapt resource value: 0x7F070075
-			public const int design_bottom_navigation_item_background = 2131165301;
-			
-			// aapt resource value: 0x7F070076
-			public const int design_fab_background = 2131165302;
-			
-			// aapt resource value: 0x7F070077
-			public const int design_ic_visibility = 2131165303;
-			
 			// aapt resource value: 0x7F070078
-			public const int design_ic_visibility_off = 2131165304;
+			public const int design_bottom_navigation_item_background = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int design_password_eye = 2131165305;
+			public const int design_fab_background = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int design_snackbar_background = 2131165306;
+			public const int design_ic_visibility = 2131165306;
+			
+			// aapt resource value: 0x7F07007B
+			public const int design_ic_visibility_off = 2131165307;
+			
+			// aapt resource value: 0x7F07007C
+			public const int design_password_eye = 2131165308;
+			
+			// aapt resource value: 0x7F07007D
+			public const int design_snackbar_background = 2131165309;
 			
 			// aapt resource value: 0x7F07000D
 			public const int Enchiladas = 2131165197;
@@ -5781,11 +5790,11 @@ namespace LeftOverFeast.Droid
 			// aapt resource value: 0x7F07000E
 			public const int Fajitas = 2131165198;
 			
-			// aapt resource value: 0x7F07007B
-			public const int fish = 2131165307;
+			// aapt resource value: 0x7F07007E
+			public const int fish = 2131165310;
 			
-			// aapt resource value: 0x7F07007C
-			public const int food = 2131165308;
+			// aapt resource value: 0x7F07007F
+			public const int food = 2131165311;
 			
 			// aapt resource value: 0x7F07000F
 			public const int Frenchfries = 2131165199;
@@ -5793,14 +5802,14 @@ namespace LeftOverFeast.Droid
 			// aapt resource value: 0x7F070010
 			public const int Greenchile = 2131165200;
 			
-			// aapt resource value: 0x7F07007D
-			public const int ic_mtrl_chip_checked_black = 2131165309;
+			// aapt resource value: 0x7F070080
+			public const int ic_mtrl_chip_checked_black = 2131165312;
 			
-			// aapt resource value: 0x7F07007E
-			public const int ic_mtrl_chip_checked_circle = 2131165310;
+			// aapt resource value: 0x7F070081
+			public const int ic_mtrl_chip_checked_circle = 2131165313;
 			
-			// aapt resource value: 0x7F07007F
-			public const int ic_mtrl_chip_close_circle = 2131165311;
+			// aapt resource value: 0x7F070082
+			public const int ic_mtrl_chip_close_circle = 2131165314;
 			
 			// aapt resource value: 0x7F070011
 			public const int Idly = 2131165201;
@@ -5823,53 +5832,53 @@ namespace LeftOverFeast.Droid
 			// aapt resource value: 0x7F070017
 			public const int Manchurian = 2131165207;
 			
-			// aapt resource value: 0x7F070080
-			public const int mtrl_snackbar_background = 2131165312;
+			// aapt resource value: 0x7F070083
+			public const int mtrl_snackbar_background = 2131165315;
 			
-			// aapt resource value: 0x7F070081
-			public const int mtrl_tabs_default_indicator = 2131165313;
+			// aapt resource value: 0x7F070084
+			public const int mtrl_tabs_default_indicator = 2131165316;
 			
 			// aapt resource value: 0x7F070018
 			public const int Nachos = 2131165208;
 			
-			// aapt resource value: 0x7F070082
-			public const int navigation_empty_icon = 2131165314;
-			
-			// aapt resource value: 0x7F070083
-			public const int notification_action_background = 2131165315;
-			
-			// aapt resource value: 0x7F070084
-			public const int notification_bg = 2131165316;
-			
 			// aapt resource value: 0x7F070085
-			public const int notification_bg_low = 2131165317;
+			public const int navigation_empty_icon = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int notification_bg_low_normal = 2131165318;
+			public const int notification_action_background = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int notification_bg_low_pressed = 2131165319;
+			public const int notification_bg = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int notification_bg_normal = 2131165320;
+			public const int notification_bg_low = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int notification_bg_normal_pressed = 2131165321;
+			public const int notification_bg_low_normal = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int notification_icon_background = 2131165322;
+			public const int notification_bg_low_pressed = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int notification_template_icon_bg = 2131165323;
+			public const int notification_bg_normal = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int notification_template_icon_low_bg = 2131165324;
+			public const int notification_bg_normal_pressed = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int notification_tile_bg = 2131165325;
+			public const int notification_icon_background = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int notify_panel_notification_icon_bg = 2131165326;
+			public const int notification_template_icon_bg = 2131165326;
+			
+			// aapt resource value: 0x7F07008F
+			public const int notification_template_icon_low_bg = 2131165327;
+			
+			// aapt resource value: 0x7F070090
+			public const int notification_tile_bg = 2131165328;
+			
+			// aapt resource value: 0x7F070091
+			public const int notify_panel_notification_icon_bg = 2131165329;
 			
 			// aapt resource value: 0x7F070019
 			public const int Pizza = 2131165209;
@@ -5877,8 +5886,8 @@ namespace LeftOverFeast.Droid
 			// aapt resource value: 0x7F07001A
 			public const int Potroast = 2131165210;
 			
-			// aapt resource value: 0x7F07008F
-			public const int prawn = 2131165327;
+			// aapt resource value: 0x7F070092
+			public const int prawn = 2131165330;
 			
 			// aapt resource value: 0x7F07001B
 			public const int Seafood = 2131165211;
@@ -5886,17 +5895,17 @@ namespace LeftOverFeast.Droid
 			// aapt resource value: 0x7F07001C
 			public const int Takeaphoto = 2131165212;
 			
-			// aapt resource value: 0x7F070090
-			public const int tooltip_frame_dark = 2131165328;
+			// aapt resource value: 0x7F070093
+			public const int tooltip_frame_dark = 2131165331;
 			
-			// aapt resource value: 0x7F070091
-			public const int tooltip_frame_light = 2131165329;
+			// aapt resource value: 0x7F070094
+			public const int tooltip_frame_light = 2131165332;
 			
 			// aapt resource value: 0x7F07001D
 			public const int VegCurry = 2131165213;
 			
-			// aapt resource value: 0x7F070092
-			public const int xamagonBlue = 2131165330;
+			// aapt resource value: 0x7F070095
+			public const int xamagonBlue = 2131165333;
 			
 			static Drawable()
 			{

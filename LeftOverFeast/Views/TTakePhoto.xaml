@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-              Title="Take A Photo"
+              Title="Take a Picture"
              x:Class="LeftOverFeast.Views.TTakePhoto">
     <ContentPage.Content>
         <StackLayout Margin="0" Orientation="Vertical">

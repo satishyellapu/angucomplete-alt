@@ -237,4 +237,13 @@
   <ItemGroup>
     <BundleResource Include="Resources\VegCurry.jfif" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\chicken1.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\camera.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\camera2.jfif" />
+  </ItemGroup>
 </Project>

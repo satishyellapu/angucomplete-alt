@@ -32,7 +32,7 @@ namespace LeftOverFeast.Views
 
         private void btnHome_Clicked(object sender, EventArgs e)
         {
-            App.Current.MainPage = new NavigationPage(new MainTabbedPage());
+            App.Current.MainPage = new NavigationPage(new TilesMainPage());
         }
     }
 }

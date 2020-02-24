@@ -13,7 +13,7 @@
             <ContentView>
                 <ScrollView>
                     <StackLayout>
-                        <Image x:Name="Foodimg" Aspect="AspectFill" Margin="10"></Image>
+                        <Image x:Name="Foodimg" Aspect="AspectFill" Margin="10" HeightRequest="200"></Image>
                         <Label x:Name="Foodname" FontSize="Large" TextColor="Red" HorizontalTextAlignment="Center" FontFamily="Verdana" ></Label>
                         <Label x:Name="BestBeforedays" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start" Margin="10,5" FontFamily="Verdana"></Label>
                         <Label x:Name="DiscardAfterdays" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start" Margin="10,5" FontFamily="Verdana"></Label>

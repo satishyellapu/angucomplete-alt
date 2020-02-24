@@ -18,6 +18,7 @@ namespace LeftOverFeast
         public TilesMainPage()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, true);
         }
 
         public void btnMeat_Clicked(object sender, EventArgs e)

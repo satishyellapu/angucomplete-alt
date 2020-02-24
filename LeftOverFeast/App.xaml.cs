@@ -13,9 +13,10 @@ namespace LeftOverFeast
         {
             InitializeComponent();
 
+            
             //MainPage = new MainTabbedPage();
-            //MainPage = new TilesMainPage();
-            MainPage = new MasterContent();
+            MainPage = new NavigationPage(new  TilesMainPage());
+            //MainPage = new MasterContent();
         }
         public static SQLiteHelper SQLiteDb
         {

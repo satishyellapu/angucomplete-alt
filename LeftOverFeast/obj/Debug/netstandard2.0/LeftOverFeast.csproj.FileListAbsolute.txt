@@ -2,7 +2,6 @@ C:\Users\Satish\Documents\GitHub\angucomplete-alt\LeftOverFeast\bin\Debug\netsta
 C:\Users\Satish\Documents\GitHub\angucomplete-alt\LeftOverFeast\bin\Debug\netstandard2.0\LeftOverFeast.dll
 C:\Users\Satish\Documents\GitHub\angucomplete-alt\LeftOverFeast\bin\Debug\netstandard2.0\ref\LeftOverFeast.dll
 C:\Users\Satish\Documents\GitHub\angucomplete-alt\LeftOverFeast\bin\Debug\netstandard2.0\LeftOverFeast.pdb
-C:\Users\Satish\Documents\GitHub\angucomplete-alt\LeftOverFeast\obj\Debug\netstandard2.0\LeftOverFeast.csprojAssemblyReference.cache
 C:\Users\Satish\Documents\GitHub\angucomplete-alt\LeftOverFeast\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Satish\Documents\GitHub\angucomplete-alt\LeftOverFeast\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\Satish\Documents\GitHub\angucomplete-alt\LeftOverFeast\obj\Debug\netstandard2.0\MainTabbedPage.xaml.g.cs

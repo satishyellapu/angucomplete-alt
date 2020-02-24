@@ -15,6 +15,7 @@ namespace LeftOverFeast
         public MasterContent()
         {
             InitializeComponent();
+            this.Title = "LeftOverFeast";
         }
 
         private void btnTabs_Clicked(object sender, EventArgs e)

@@ -59,7 +59,7 @@ namespace LeftOverFeast.Views
             //}
             try
             {
-                App.Current.MainPage = new NavigationPage(new MainTabbedPage());
+                App.Current.MainPage = new NavigationPage(new TilesMainPage());
             }
             catch (Exception ex)
             {
