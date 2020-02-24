@@ -246,4 +246,13 @@
   <ItemGroup>
     <BundleResource Include="Resources\camera2.jfif" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pizza.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Seafood.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\xamagonBlue.png" />
+  </ItemGroup>
 </Project>
