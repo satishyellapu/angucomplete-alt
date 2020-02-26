@@ -94,6 +94,18 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Xamarin.Azure.NotificationHubs.iOS/2.0.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Xamarin.Azure.NotificationHubs.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.Azure.NotificationHubs.iOS.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.3.1": {
         "type": "package",
         "dependencies": {
@@ -341,6 +353,18 @@
         },
         "runtime": {
           "lib/xamarinios10/_._": {}
+        }
+      },
+      "Xamarin.Azure.NotificationHubs.iOS/2.0.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Xamarin.Azure.NotificationHubs.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.Azure.NotificationHubs.iOS.dll": {}
         }
       },
       "Xamarin.Essentials/1.3.1": {
@@ -592,6 +616,18 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Xamarin.Azure.NotificationHubs.iOS/2.0.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Xamarin.Azure.NotificationHubs.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.Azure.NotificationHubs.iOS.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.3.1": {
         "type": "package",
         "dependencies": {
@@ -839,6 +875,18 @@
         },
         "runtime": {
           "lib/xamarinios10/_._": {}
+        }
+      },
+      "Xamarin.Azure.NotificationHubs.iOS/2.0.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Xamarin.Azure.NotificationHubs.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.Azure.NotificationHubs.iOS.dll": {}
         }
       },
       "Xamarin.Essentials/1.3.1": {
@@ -1210,6 +1258,19 @@
         "version.txt"
       ]
     },
+    "Xamarin.Azure.NotificationHubs.iOS/2.0.4": {
+      "sha512": "t3B6c2POw9L5Y82e/OxZajnFfDndDfxhhPT/qfWcG6XWN0QBqzB04powvUN836bE++PMbP2kP+sy2QF339ibfw==",
+      "type": "package",
+      "path": "xamarin.azure.notificationhubs.ios/2.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/xamarinios10/Xamarin.Azure.NotificationHubs.iOS.dll",
+        "xamarin.azure.notificationhubs.ios.2.0.4.nupkg.sha512",
+        "xamarin.azure.notificationhubs.ios.nuspec"
+      ]
+    },
     "Xamarin.Essentials/1.3.1": {
       "sha512": "+51728AdZ/qtABGvcIaNXgEoL2jAtxAXLHS8PvGCP0pb6n7twBqYpfgkmwHYVgu+U99szgtL+Jot8L+OXorPcA==",
       "type": "package",
@@ -1519,6 +1580,7 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "LeftOverFeast >= 1.0.0",
+      "Xamarin.Azure.NotificationHubs.iOS >= 2.0.4",
       "Xamarin.Essentials >= 1.3.1",
       "Xamarin.Forms >= 4.3.0.908675",
       "sqlite-net-pcl >= 1.6.292"
@@ -1566,6 +1628,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "Xamarin.Azure.NotificationHubs.iOS": {
+            "target": "Package",
+            "version": "[2.0.4, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.3.1, )"

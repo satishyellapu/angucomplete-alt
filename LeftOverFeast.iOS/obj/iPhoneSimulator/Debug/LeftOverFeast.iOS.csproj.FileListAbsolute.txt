@@ -8,6 +8,7 @@ C:\Users\Satish\Documents\GitHub\angucomplete-alt\LeftOverFeast.iOS\bin\iPhoneSi
 C:\Users\Satish\Documents\GitHub\angucomplete-alt\LeftOverFeast.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_v2.dll
 C:\Users\Satish\Documents\GitHub\angucomplete-alt\LeftOverFeast.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.core.dll
 C:\Users\Satish\Documents\GitHub\angucomplete-alt\LeftOverFeast.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.provider.sqlite3.dll
+C:\Users\Satish\Documents\GitHub\angucomplete-alt\LeftOverFeast.iOS\bin\iPhoneSimulator\Debug\Xamarin.Azure.NotificationHubs.iOS.dll
 C:\Users\Satish\Documents\GitHub\angucomplete-alt\LeftOverFeast.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.dll
 C:\Users\Satish\Documents\GitHub\angucomplete-alt\LeftOverFeast.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.pdb
 C:\Users\Satish\Documents\GitHub\angucomplete-alt\LeftOverFeast.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll

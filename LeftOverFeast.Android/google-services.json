@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "395213847826",
+    "firebase_url": "https://leftoverfeastandroid.firebaseio.com",
+    "project_id": "leftoverfeastandroid",
+    "storage_bucket": "leftoverfeastandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395213847826:android:9c56bbac2534f715a207cb",
+        "android_client_info": {
+          "package_name": "com.m3consulting.leftoverfeast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395213847826-ulec90rhtq66cctfehblt80bvtc54ti0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKf54LlCjSkhYFc3oTyKJFRMvRtwBIpuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395213847826-ulec90rhtq66cctfehblt80bvtc54ti0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
