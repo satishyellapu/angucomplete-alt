@@ -9,7 +9,7 @@ using UserNotifications;
 
 namespace LeftOverFeast.iOS
 {
-    
+
     // The UIApplicationDelegate for the application. This class is responsible for launching the 
     // User Interface of the application, as well as listening (and optionally responding) to 
     // application events from iOS.
@@ -50,7 +50,11 @@ namespace LeftOverFeast.iOS
                 UIApplication.SharedApplication.RegisterForRemoteNotificationTypes(notificationTypes);
             }
 
-            return true;
+            global::Xamarin.Forms.Forms.Init();
+            LoadApplication(new App());
+
+            return base.FinishedLaunching(app, options);
+            //return true;
         }
 
         public override void RegisteredForRemoteNotifications(UIApplication application, NSData deviceToken)
